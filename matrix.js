@@ -115,7 +115,6 @@ function mapdata() {
 
   node();
 
-  //console.log("EDGES LENGTH :" , edges.length);
 
 
   elements = {
@@ -123,8 +122,7 @@ function mapdata() {
     edges
   };
 
-  console.log("Node Length: ", nodes.length)
-  console.log("Edges Length: ", edges.length)
+  
   return elements;
 
 }
